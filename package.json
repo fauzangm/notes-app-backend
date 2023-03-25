@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-basic-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "escape ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.22",
+    "rupiah-format": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
